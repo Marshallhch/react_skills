@@ -1,0 +1,24 @@
+import React, { Component } from "react";
+import { Breadcrumb, BreadcrumbItem } from "reactstrap";
+
+class BreadCrumbs extends Component {
+  render() {
+    return (
+      <div id='top'>
+        <Breadcrumb tag='nav' listTag='div'>
+          <BreadcrumbItem tag='a' href='#top'>
+            Go_Top
+          </BreadcrumbItem>
+          <BreadcrumbItem tag='a' href='#buttom'>
+            Go_bottom
+          </BreadcrumbItem>
+        </Breadcrumb>
+        <div id='bottom' style={{ marginTop: "1000px" }}>
+          <span>bottom</span>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default BreadCrumbs;
