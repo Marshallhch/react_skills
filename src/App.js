@@ -1,14 +1,13 @@
 import React from "react";
 import "./App.css";
-import StrapDropdown from "./components/react_basic/StrapDropdonw";
-import "bootstrap/dist/css/bootstrap.css";
+import SweetAlertBasic from "./components/react_basic/SweetAlertBasic";
 
 function App() {
   return (
     <div>
       <h1>Render Call Return from App</h1>
       <p>Designed CSS</p>
-      <StrapDropdown />
+      <SweetAlertBasic />
     </div>
   );
 }
